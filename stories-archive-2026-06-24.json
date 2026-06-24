@@ -3,21 +3,28 @@
         "id": 48657030,
         "title": "We're making Bunny DNS free: because a faster internet won't build itself",
         "author": "dabinat",
-        "score": 353,
+        "score": 387,
         "url": "https://bunny.net/blog/were-making-bunny-dns-free/"
+    },
+    {
+        "id": 48658718,
+        "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
+        "author": "earcar",
+        "score": 74,
+        "url": "https://paolino.me/founding-a-company-in-germany/"
     },
     {
         "id": 48646659,
         "title": "Krea 2 Technical Report",
         "author": "mattnewton",
-        "score": 33,
+        "score": 49,
         "url": "https://www.krea.ai/blog/krea-2-technical-report"
     },
     {
-        "id": 48657940,
-        "title": "Too many R packages: CRAN is inundated with submissions",
-        "author": "ionychal",
-        "score": 20,
-        "url": "https://rworks.dev/posts/too-many-R-packages/"
+        "id": 48658361,
+        "title": "Minimus container images are now free",
+        "author": "dimastopel",
+        "score": 33,
+        "url": "https://images.minimus.io/"
     }
 ]
