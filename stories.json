@@ -1,0 +1,23 @@
+[
+    {
+        "id": 48657030,
+        "title": "We're making Bunny DNS free: because a faster internet won't build itself",
+        "author": "dabinat",
+        "score": 353,
+        "url": "https://bunny.net/blog/were-making-bunny-dns-free/"
+    },
+    {
+        "id": 48646659,
+        "title": "Krea 2 Technical Report",
+        "author": "mattnewton",
+        "score": 33,
+        "url": "https://www.krea.ai/blog/krea-2-technical-report"
+    },
+    {
+        "id": 48657940,
+        "title": "Too many R packages: CRAN is inundated with submissions",
+        "author": "ionychal",
+        "score": 20,
+        "url": "https://rworks.dev/posts/too-many-R-packages/"
+    }
+]
