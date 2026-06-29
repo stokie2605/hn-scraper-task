@@ -8,21 +8,21 @@ const mockUnsortedStories = [
 ];
 
 function runSortingUnitTest() {
-    console.log('🧪 Running automated unit test for sorting algorithm...');
+    console.log('Running automated unit test for sorting algorithm...');
 
     try {
         // 1. Clone our mock array and run our exact pipeline sorting logic
         const sortedData = [...mockUnsortedStories].sort((a, b) => b.score - a.score);
 
         // 2. Assert (verify) that the items rearranged into the correct mathematical order
-        assert.equal(sortedData[0].score, 500, '❌ Test Failed: Highest score should be index 0');
-        assert.equal(sortedData[1].score, 150, '❌ Test Failed: Middle score should be index 1');
-        assert.equal(sortedData[2].score, 10, '❌ Test Failed: Lowest score should be index 2');
+        assert.equal(sortedData[0].score, 500, 'Test failed: highest score should be index 0');
+        assert.equal(sortedData[1].score, 150, 'Test failed: middle score should be index 1');
+        assert.equal(sortedData[2].score, 10, 'Test failed: lowest score should be index 2');
 
-        console.log('✅ UNIT TEST PASSED: Data sorting logic is mathematically sound!');
+        console.log('Unit test passed: data sorting logic is mathematically sound.');
         
     } catch (error) {
-        console.error('💥 Assertion Error encountered during testing:', error.message);
+        console.error('Assertion error encountered during testing:', error.message);
         process.exit(1); // Stop execution to indicate a build failure
     }
 }
