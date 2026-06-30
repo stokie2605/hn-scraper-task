@@ -1,5 +1,7 @@
 # Hacker News HTML Scraper
 
+[![CI](https://github.com/stokie2605/hn-scraper-task/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/stokie2605/hn-scraper-task/actions/workflows/ci.yml)
+
 Built by Dean Wilshaw.
 
 Hacker News HTML Scraper is a Node.js data pipeline that fetches the live Hacker News homepage, parses the raw HTML with Cheerio, extracts story metadata, sorts stories by engagement score, and writes structured JSON output for downstream analysis.
